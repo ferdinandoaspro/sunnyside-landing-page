@@ -32,3 +32,13 @@ $custom-theme: (
 $theme-colors: map-merge($theme-colors, $custom-theme);
 
 @import "../node_modules/bootstrap/scss/bootstrap";
+
+@mixin background($path) {
+    background-image: url($path);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+header {
+    @include background("../images/mobile/image-gallery-orange.jpg");
+}

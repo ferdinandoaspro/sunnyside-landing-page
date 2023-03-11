@@ -11618,5 +11618,9 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+header {
+  background-image: url("../images/mobile/image-gallery-orange.jpg");
+  background-size: cover;
+}
 
 /*# sourceMappingURL=styles.css.map */
