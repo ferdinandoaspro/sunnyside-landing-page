@@ -40,5 +40,5 @@ $theme-colors: map-merge($theme-colors, $custom-theme);
 }
 
 header {
-    @include background("../images/mobile/image-gallery-orange.jpg");
+    @include background("../images/mobile/image-header.jpg");
 }
